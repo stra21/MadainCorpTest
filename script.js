@@ -71,7 +71,7 @@ function appendCategoryButtons(hashMap) {
     })
 }
 function fillCategories(categoryName,hashMap) {
-    hashMap.set(categoryName[categoryName.length-1], categoryName);
+    hashMap.set(categoryName, categoryName);
 }
 function filterByCategory(filterCategory)
 {
