@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Simple Index Page</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <label>Number of items to fetch</label>
+    <input id="rowsNum" type="number" value="10">
+    <br />
+    <label>Categories seperated by a comma</label>
+    <input id="categories" type="text" value="cat1,cat2">
+    <br />
+    <a href="#" onclick="loadOnDemand()" class='button button4'>Fetch Data!! YAAAY</a>
+    <div class="filters">
+        <ul class="categories">
+        </ul>
+    </div>
+    <div class="listContainer">
+
+    </div>
+</body>
+
+</html>
